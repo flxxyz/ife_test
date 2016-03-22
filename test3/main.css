@@ -1,0 +1,64 @@
+*{
+	font-family:‘PT serif’,\5FAE\8EDF\6B63\9ED1\9AD4,\5FAE\8F6F\96C5\9ED1,\534E\6587\7EC6\9ED1,Microsoft Yahei,Hiragino Sans GB,sans-serif;
+}
+body{
+	position:relative;
+	margin:0;
+	color:#000;
+}
+.clear-fx{
+	clear:both;
+	margin:-100px 0 0 120px;
+	position:absolute;
+}
+.container{
+	background-color:#eee;
+	margin:20px;
+	width:94.99%;
+	min-width:750px;
+	border:1px solid #999;
+	float:left;
+}
+.leftside{
+	border:1px solid #999;
+	background-color:#fff;
+	width:200px;
+	margin:20px;
+	float:left;
+}
+.leftside img{
+	background-color:#eee;
+	margin:20px;
+	border:1px solid #999;
+	z-index:2;
+}
+.rightbar{
+	background-color:#fff;
+	border:1px solid #999;
+	margin:20px 0px;
+	width:120px;
+	float:right;
+	position: relative;
+    right: 20px;
+}
+.rightbar span img{
+	margin:20px 20px 0 20px;
+	border:1px solid #999;
+	z-index:2;
+}
+.rightbar span .imgthree{
+	margin-bottom:20px;
+}
+.mybar{
+	background-color: #fff;
+	border:1px solid #999;
+    position: static;
+    margin: 20px 160px 20px 240px;
+}
+.mybar h1{
+	margin:20px 20px 10px 20px;
+}
+.mybar p{
+    margin: 10px 20px 20px 20px;
+}
+
