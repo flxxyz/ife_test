@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<title>定位及居中</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+.Maxbox{
+	position:absolute;
+	width:400px;
+	height:200px;
+	background-color:#ccc;
+	top:32.6%;
+	left:32.6%
+}
+.t{
+	position:fixed;
+	top:0;
+	width:100%;
+	text-align:center;
+}
+.box{
+	width:50px;
+	height:50px;
+	background-color:#fc0;
+}
+.box1{
+	border-radius:0px 0px 50px 0px;
+}
+.box2{
+	position:absolute;
+	border-radius:50px 0px 0px 0px;
+	bottom:0;
+	right:0;
+}
+</style>
+</head>
+<body>
+	<div class="t">貌似没有什么问题</div>
+	<div class="Maxbox">
+		<div class="box box1"></div>
+		<div class="box box2"></div>
+	</div>
+
+</body>
+
+
+</html>
